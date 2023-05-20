@@ -28,3 +28,13 @@ a:hover {
     color: #425fbe;
     text-decoration: underline;
 }
+.container {
+    padding: 20px;
+}
+.picture {
+    float: left;
+    margin: 10px;
+}
+section {
+    padding: 20px;
+}
