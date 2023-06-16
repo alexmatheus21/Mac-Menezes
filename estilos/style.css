@@ -1,9 +1,13 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
+
 body{
     width: 100vw;
     height: 100vh;  
@@ -12,16 +16,17 @@ body{
     background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #333333;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
+
 main {
-    padding: 50px 15px 150px 15px;
+    padding: 50px 15px 15px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    width: 600px;
+    width: 500px;
 }
 .profile-picture img {
     height: 150px;
@@ -31,6 +36,22 @@ main {
     padding-bottom: 20px;
 
 }
+.profile-picture img:hover {
+    height: 160px;
+    width: 160px;
+}
+h1 {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+h2 {
+    padding: 0px 0px 5px 0px;
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
 ul {
     list-style-type: none;
     text-align: center;
@@ -47,6 +68,7 @@ button {
     color: #FFF;
     transition: background .3s;
     margin: 1%;
+    border-radius: 10px;
     
 }
 button:hover {
